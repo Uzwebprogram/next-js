@@ -1,0 +1,56 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.category_h2{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+.button{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: #ca889a;
+    border: 3px solid transparent;
+    color: white;
+    font-size: 24px;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button:hover{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 3px solid #ca889a;
+    color: #ca889a;
+    font-size: 24px;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width:692px) {
+    .category_h2{
+        font-size: 40px;
+        margin: 0;
+        padding: 0;
+        padding-top: 20px;
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        padding:20px;
+        margin-top: 0px;
+    }
+    .button{
+        width: 100%;
+    }
+}

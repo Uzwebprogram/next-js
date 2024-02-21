@@ -1,0 +1,17 @@
+.media{
+    padding: 30px;
+    height: 100vh;
+    display: none;
+}
+.desktop{
+    padding: 25px;
+    height: 100vh;
+}
+@media only screen and (max-width:1024px) {
+    .media{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+}
